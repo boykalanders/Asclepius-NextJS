@@ -268,7 +268,7 @@
 
 	/* =====  REACT PHONE NUMBER INPUT OVERRIDES */
 	.input-phone {
-		@apply mt-2 h-11 rounded-md px-3 text-sm border bg-light-400 placeholder:text-dark-600 border-dark-500 !important;
+		@apply mt-2 h-11 rounded-md px-3 text-sm border bg-light-200 placeholder:text-light-300 border-light-300 !important;
 	}
 
 	/* =====  REACT DATE PICKER OVERRIDES */
@@ -340,11 +340,11 @@
 .PhoneInputInput {
 	outline: none;
 	margin-left: 4px;
-	background: #1a1d21;
+	background: #f2f7f3;
 	font-size: 14px;
 	font-weight: 500;
 }
 
 .PhoneInputInput::placeholder {
-	color: #1a1d21;
+	color: #b1b3b1;
 }
